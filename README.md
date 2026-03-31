@@ -1,8 +1,8 @@
 # 前任.skill
 
-> *"所有的遗憾都值得被温柔地安放"*
+> *"你们搞大模型的简直是码神，你们解放了前端兄弟，还要解放后端兄弟，测试兄弟，运维兄弟，解放网安兄弟，解放ic兄弟，最后解放自己解放全人类"*
 
-**把前任蒸馏成 AI Skill，让ta永远活在你的终端里。**
+**我会为了你一万次回到那个夏天。**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
