@@ -108,15 +108,3 @@ exes/
           ├── photos/
           └── social/
 ```
-
-## 与同事.skill 的对比
-
-| 维度 | 同事.skill | 前任.skill |
-|------|-----------|-----------|
-| Part A | Work Skill（工作能力） | Relationship Memory（关系记忆） |
-| Part B | Persona（5层，工作场景） | Persona（5层，恋爱场景） |
-| 数据源 | 飞书/钉钉/邮件 | 微信/QQ/朋友圈/照片 |
-| 标签体系 | 职级/公司文化/甩锅标签 | 依恋类型/爱的语言/星座 |
-| 使用场景 | Code Review/工作对话 | 日常聊天/回忆/情感疗愈 |
-| 安全边界 | 无特殊 | 防止不健康执念 |
-| 删除命令 | `/delete-colleague` | `/let-go`（温柔别名） |
