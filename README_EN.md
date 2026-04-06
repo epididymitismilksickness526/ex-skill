@@ -1,4 +1,4 @@
-# Ex-Partner.skill
+# ex.skill
 
 > *"Every goodbye deserves a gentle place to rest."*
 
