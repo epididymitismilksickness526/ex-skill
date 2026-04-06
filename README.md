@@ -78,7 +78,7 @@ pip3 install -r requirements.txt
 | `/{slug}-persona` | 仅人物性格 |
 | `/ex-rollback {slug} {version}` | 回滚到历史版本 |
 | `/delete-ex {slug}` | 删除 |
-| `/let-go {slug}` | 放下（delete 的温柔别名） |
+| `/let-go {slug}` | 放下 |
 
 ---
 
