@@ -221,10 +221,6 @@ create-ex/
 | [同事.skill](https://github.com/titanwings/colleague-skill) | @titanwings | 本项目的灵感来源，把同事蒸馏成 AI Skill |
 | [simp-skill](https://github.com/BeamusWayne/simp-skill) | @BeamusWayne | 与其怀念前任，不如勇敢追爱 |
  
-**语音克隆（实验性）**：如果你想让 AI 用前任的声音说话，可以把 ex-skill 生成的文本搭配 [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 使用。这需要额外部署语音模型，不在本项目范围内。
- 
-**聊天记录导入**：不知道怎么把聊天记录喂给 ex-skill？请看 [导入指南](docs/EXPORT_GUIDE.md)。
-
 ---
 
 
